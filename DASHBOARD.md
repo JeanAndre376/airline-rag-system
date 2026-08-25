@@ -10,6 +10,7 @@ The Airline RAG System includes an interactive **AI/BI Lakeview Dashboard** with
 * Business vs Economy premium ratio
 * Price by airline, class, and stops
 * Price trends vs days before departure
+![Airline pricing dashboard overview](PricingOverview.png)
 
 ### 2. **Performance Metrics**
 * Top 10 routes by revenue potential
