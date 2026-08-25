@@ -27,6 +27,8 @@ The Airline RAG System includes an interactive **AI/BI Lakeview Dashboard** with
 * Statistical summary (quartiles, median)
 * Price distribution by class (box plots)
 
+![Prediction](Prediction.png)
+
 ---
 
 ## 🔗 Access Options
