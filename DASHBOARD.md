@@ -27,50 +27,11 @@ The Airline RAG System includes an interactive **AI/BI Lakeview Dashboard** with
 
 ## 🔗 Access Options
 
-You have **two ways** to share or access this dashboard:
+### **Make Dashboard Public** 
 
-### **Option 1: Make Dashboard Public** (Easiest)
-
-**Best for:** Sharing with external users or embedding on websites
-
-1. **Open the dashboard** in Databricks:
+1. **Open the dashboard in Databricks:**
    ```
-   /Users/jeanfred4@gmail.com/Airline Dashboard.lvdash.json
-   ```
-
-2. **Click "Share" button** (top right)
-
-3. **Enable "Public Access"**:
-   * Toggle **"Allow public access"** ON
-   * Copy the **public URL**
-
-4. **Share the URL** - anyone with the link can view (no login required)
-
-⚠️ **Note**: The dashboard will be **read-only** for public viewers
-
----
-
-### **Option 2: Export Dashboard to Git** (Version Control)
-
-**Best for:** Version control, collaboration, backup
-
-#### **Method A: Manual Export (Recommended)**
-
-1. **Open the dashboard** in Databricks
-
-2. **Click the "⋮" menu** (top right) → **"Download"**
-
-3. **Save the `.lvdash.json` file**
-
-4. **Add it to this Git repo**:
-   ```bash
-   # Copy the downloaded file to your repo
-   cp ~/Downloads/Airline\ Dashboard.lvdash.json ./Airline_Dashboard.lvdash.json
-   
-   # Commit and push
-   git add Airline_Dashboard.lvdash.json
-   git commit -m "Add airline dashboard"
-   git push origin main
+   https://dbc-25119fb3-3329.cloud.databricks.com/dashboardsv3/01f1978c33611adaa8a000284459bbf7/published?o=7474658491942202
    ```
 
 #### **Method B: Copy Dashboard File**
@@ -99,7 +60,6 @@ The dashboard queries these Unity Catalog tables:
 * `airlines.gold_schema.gold_time_of_day_pricing`
 * `airlines.silver_gold.flight_price_predictions`
 * `airlines.silver_gold.silver_flights_data`
-
 ---
 
 ## 🔧 Recreating the Dashboard
@@ -117,19 +77,6 @@ If you want to **recreate the dashboard** in another workspace:
 
 ---
 
-## 💡 Recommendation
-
-**Use Option 1 (Public Access)** for:
-* Sharing with stakeholders
-* Embedding in websites/portals
-* Quick demo/preview links
-
-**Use Option 2 (Git Export)** for:
-* Backup and version control
-* Tracking dashboard changes over time
-* Sharing the dashboard definition with other Databricks users
-
----
 
 ## 🔗 Links
 
