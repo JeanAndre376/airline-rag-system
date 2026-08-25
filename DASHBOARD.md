@@ -30,22 +30,11 @@ The Airline RAG System includes an interactive **AI/BI Lakeview Dashboard** with
 ### **Make Dashboard Public** 
 
 1. **Open the dashboard in Databricks:**
+   **User acc. required**
    ```
    https://dbc-25119fb3-3329.cloud.databricks.com/dashboardsv3/01f1978c33611adaa8a000284459bbf7/published?o=7474658491942202
    ```
-
-#### **Method B: Copy Dashboard File**
-
-The dashboard source file is at:
-```
-/Users/jeanfred4@gmail.com/Airline Dashboard.lvdash.json
-```
-
-**In Databricks Repos**, you can copy it:
-```bash
-cp "/Workspace/Users/jeanfred4@gmail.com/Airline Dashboard.lvdash.json" .
-```
-
+   
 ---
 
 ## 📂 Dashboard Data Sources
