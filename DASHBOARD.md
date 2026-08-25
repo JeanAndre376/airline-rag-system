@@ -37,35 +37,6 @@ The Airline RAG System includes an interactive **AI/BI Lakeview Dashboard** with
    
 ---
 
-## 📂 Dashboard Data Sources
-
-The dashboard queries these Unity Catalog tables:
-
-* `airlines.gold_schema.gold_route_level_analysis`
-* `airlines.gold_schema.gold_route_revenue_potential`
-* `airlines.gold_schema.gold_class_level_analysis`
-* `airlines.gold_schema.gold_airline_performance`
-* `airlines.gold_schema.gold_price_vs_days_left`
-* `airlines.gold_schema.gold_time_of_day_pricing`
-* `airlines.silver_gold.flight_price_predictions`
-* `airlines.silver_gold.silver_flights_data`
----
-
-## 🔧 Recreating the Dashboard
-
-If you want to **recreate the dashboard** in another workspace:
-
-1. **Set up the data pipeline** (see `setup_data.py`)
-
-2. **Import the dashboard file**:
-   * Go to **Dashboards** in Databricks
-   * Click **"Create"** → **"Import Dashboard"**
-   * Upload the `.lvdash.json` file
-
-3. **Update data sources** if your catalog/schema names are different
-
----
-
 
 ## 🔗 Links
 
